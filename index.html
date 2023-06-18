@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Website</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar">
+        <h1 class="logo">Adventure</h1>
+        <ul class="nav">
+            <li class="active"><a href="#"></a>Home</li>
+            <li><a href="#"></a>About Us</li>
+            <li><a href="#"></a>Explore</li>
+            <li><a href="#"></a>Services</li>
+            <li class="btn"><a href="#"></a>Contact</li>
+        </ul>
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSQBzKUdqe4CetMZnfMPRS1s3SK_A45pQdY0A&usqp=CAU"
+            alt="error" class="menu-btn">
+    </nav>
+    <header>
+        <div class="header-content">
+            <h2>Welcome Explore the beautiful world</h2>
+            <div class="line"></div>
+            <h1>A Warm Welcome to you</h1>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </header>
+    <!-- Event Section- -->
+    <section class="event">
+        <div class="title">
+            <h1>Upcoming Events</h1>
+            <div class="line"></div>
+        </div>
+        <div class="row">
+            <div class="col">
+                <img src="https://source.unsplash.com/500x300/?nature" alt="error">
+                <h4>Everest Camp Track</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quidem consectetur accusantium
+                    quaerat perspiciatis maxime!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+
+            <div class="col">
+                <img src="https://source.unsplash.com/500x300/?mountain" alt="error">
+                <h4>Walking Holidays</h4>
+                <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Pariatur quidem consectetur accusantium
+                    quaerat perspiciatis maxime!</p>
+                <a href="#" class="btn">Learn More</a>
+            </div>
+        </div>
+    </section>
+    <!-- Explore Section -->
+    <section class="explore">
+
+        <div class="explore-content">
+
+            <h1>Explore the World</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sit ea, incidunt obcaecati
+                exercitationem tempore accusantium. Minus, odio id. Delectus.</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+    </section>
+<!-- Tour Section -->
+<section class="tour">
+    <div class="row">
+        <div class="col content-col">
+            <h1>Upcoming Tours & Destination</h1>
+            <div class="line"></div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias consectetur exercitationem aliquid corrupti!</p>
+            <a href="#" class="btn">Learn More</a>
+        </div>
+        <div class="col image-col">
+            <div class="image">
+                <img src="https://source.unsplash.com/500x300/?mountain" alt="error">
+                <img src="https://source.unsplash.com/500x300/?nature" alt="error">
+                <img src="https://source.unsplash.com/500x300/?mountain" alt="error">
+                <img src="https://source.unsplash.com/500x300/?nature" alt="error">
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <p>123 Fifth Avenue, NY 10160, New York, USA | Phone: 800-123-456 | Email: contact@example.com </p>
+    <p>Copyright @ 2020 Outdoor Advennture</p>
+</section>
+
+    <script>
+        const menubtn = document.querySelector('.menu-btn');
+        const nav = document.querySelector('.nav');
+        menubtn.addEventListener('click', () => {
+            nav.classList.toggle('mobile-menu')
+        })
+    </script>
+</body>
+
+</html>
